@@ -6,7 +6,7 @@ import CryptoIcon from '@/app/components/CryptoIcon'
 import { motion } from 'framer-motion'
 import { Cpu, Database, Lock, Wallet, BarChart2, Globe, Shield } from 'lucide-react'
 import Link from 'next/link'
-import Footer from '../components/Footer'
+import Footer from '@/app/components/Footer'
 
 export default function TestimonialsPage() {
   return (

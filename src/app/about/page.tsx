@@ -4,7 +4,7 @@ import BlockchainCube from '@/app/components/BlockchainCube'
 import CryptoIcon from '@/app/components/CryptoIcon'
 import { motion } from 'framer-motion'
 import { Cpu, Database, Lock, Wallet, BarChart2, Globe, Shield, Gem, Compass, Coins, Layers } from 'lucide-react'
-import Footer from '../components/Footer'
+import Footer from '@/app/components/Footer'
 
 const FeatureCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => (
   <motion.div
