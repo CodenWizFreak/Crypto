@@ -6,7 +6,7 @@ import BlockchainCube from '../components/BlockchainCube'
 import CryptoIcon from '../components/CryptoIcon'
 import { motion } from 'framer-motion'
 import { Cpu, Database, Lock, Wallet, BarChart2, Globe, Shield } from 'lucide-react'
-import Link from 'next/link'
+//import Link from 'next/link'
 import Footer from '../components/Footer'
 
 export default function PrivacyPolicyPage() {
@@ -92,7 +92,7 @@ export default function PrivacyPolicyPage() {
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4 text-pink-400">1. Introduction</h2>
             <p className="text-gray-300">
-              Welcome to CryptoQuest's Privacy Policy. At CryptoQuest, we are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our blockchain gaming platform.
+              Welcome to CryptoQuest&apos;s Privacy Policy. At CryptoQuest, we are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our blockchain gaming platform.
             </p>
           </section>
 
@@ -134,7 +134,7 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-pink-400">7. Changes to This Policy</h2>
             <p className="text-gray-300">
-              We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
+              We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the &quot;Last updated&quot; date.
             </p>
           </section>
         </motion.div>

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
+//import Link from 'next/link'
 
 interface SignInProps {
   onToggle: () => void
@@ -46,7 +46,7 @@ export default function SignIn({ onToggle }: SignInProps) {
         </button>
       </form>
       <p className="mt-4 text-center text-gray-300">
-        Don't have an account?{' '}
+        Don&apos;t have an account?{' '}
         <button onClick={onToggle} className="text-purple-400 hover:underline font-semibold">
           Sign Up
         </button>

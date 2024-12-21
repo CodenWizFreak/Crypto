@@ -138,7 +138,7 @@ const FeatureCard = ({ icon, title, description }: { icon: React.ReactNode, titl
           >
             <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the CryptoQuest Revolution</h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto text-gray-300">
-              CryptoQuest is more than just a game - it's a gateway to the future of digital interaction and value creation. Whether you're a seasoned crypto enthusiast or new to blockchain technology, CryptoQuest offers an exciting and accessible way to engage with this revolutionary tech.
+              CryptoQuest is more than just a game - it&apos;s a gateway to the future of digital interaction and value creation. Whether you&apos;re a seasoned crypto enthusiast or new to blockchain technology, CryptoQuest offers an exciting and accessible way to engage with this revolutionary tech.
             </p>
             <Link href="/auth">
               <motion.button
