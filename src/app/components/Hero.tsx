@@ -11,9 +11,9 @@ export default function Hero() {
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-80px)] relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <BlockchainCube className="absolute top-1/6 left-1/4 w-32 h-32" />
+        <BlockchainCube className="absolute top-1/4 left-1/4 w-32 h-32" />
         <BlockchainCube className="absolute bottom-1/4 right-1/4 w-32 h-32" />
-        <CryptoIcon icon="bitcoin" className="absolute top-1/5 right-1/3 text-7xl" />
+        <CryptoIcon icon="bitcoin" className="absolute top-1/4 right-1/3 text-7xl" />
         <CryptoIcon icon="ethereum" className="absolute bottom-1/3 left-1/3 text-7xl" />
         
         <motion.div
@@ -38,21 +38,21 @@ export default function Hero() {
           <Lock />
         </motion.div>
         <motion.div
-          className="absolute top-1/4 right-10 text-7xl text-white opacity-50"
+          className="absolute top-1/2 right-10 text-7xl text-white opacity-50"
           animate={{ rotate: [0, 15, -15, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
         >
           <Wallet />
         </motion.div>
         <motion.div
-          className="absolute bottom-1/4 left-1/3 text-7xl text-white opacity-50"
+          className="absolute bottom-20 left-1/3 text-7xl text-white opacity-50"
           animate={{ scale: [1, 1.1, 1] }}
           transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
         >
           <BarChart2 />
         </motion.div>
         <motion.div
-          className="absolute top-3/4 right-1/4 text-7xl text-white opacity-50"
+          className="absolute bottom-20 right-1/4 text-7xl text-white opacity-50"
           animate={{ rotate: 360 }}
           transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
         >

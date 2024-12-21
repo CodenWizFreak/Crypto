@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion';
 
 interface TestimonialProps {
@@ -33,4 +35,3 @@ const Testimonial: React.FC<TestimonialProps> = ({ name, role, content, avatar }
 };
 
 export default Testimonial;
-

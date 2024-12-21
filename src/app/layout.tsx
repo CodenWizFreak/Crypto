@@ -1,3 +1,4 @@
+
 import './globals.css'
 import { Inter, Orbitron } from 'next/font/google'
 
@@ -20,4 +21,3 @@ export default function RootLayout({
     </html>
   )
 }
-

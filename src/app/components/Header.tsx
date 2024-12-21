@@ -47,4 +47,3 @@ export default function Header({ showHomeButton = false }: HeaderProps) {
     </header>
   )
 }
-
