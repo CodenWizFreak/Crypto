@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CryptoQuest
+
+**CryptoQuest** is an interactive platform designed to educate users about blockchain technology through engaging quests and puzzles. By completing various challenges, users gain hands-on experience with blockchain concepts, cryptography, and decentralized networks. Successful participants are rewarded with NFTs, which can be traded in a community-driven marketplace.
+
+## Features
+
+- **Educational Quests**: Learn blockchain fundamentals by completing structured tasks.
+- **Cryptography Puzzles**: Enhance your understanding of cryptographic principles through interactive challenges.
+- **NFT Rewards**: Earn unique NFTs as you progress, symbolizing your achievements.
+- **Community Marketplace**: Trade your NFTs with other players in a decentralized marketplace.
 
 ## Getting Started
 
-First, run the development server:
+Visit [CryptoQuest](https://crypto-phi-jade.vercel.app/) to embark on your blockchain adventure. Sign up to track your progress, earn rewards, and participate in the community marketplace.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: Framework for server-rendered React applications.
+- **Ethers.js**: Library for interacting with the Ethereum blockchain.
+- **IPFS**: Decentralized storage for NFT metadata.
+- **Solidity**: Smart contract programming language for Ethereum.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We welcome contributions from the community. Please fork the repository and submit a pull request with your enhancements or bug fixes.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For inquiries or support, please contact us at [support@cryptoquest.com](mailto:support@cryptoquest.com).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
